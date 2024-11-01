@@ -12,7 +12,7 @@ function Lab2Page() {
         <h1>Nie znaleziono osoby o tym identyfikatorze - {id}</h1>
       ) : (
         <>
-          <h1>Profil osoby od UID: {id}</h1>
+          <h1>Profil osoby UID: {id}</h1>
           <div className="people-list">
             <PersonProfile person={data.at(id - 1)}></PersonProfile>
           </div>
